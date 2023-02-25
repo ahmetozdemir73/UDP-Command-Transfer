@@ -14,4 +14,4 @@ udp = UDPServer(host=host, port=5000)
 # Continuously receive data
 while True:
     data = udp.receive_data()
-    print(data)
+    #print(data)
